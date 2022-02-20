@@ -89,8 +89,3 @@ LOAD_PR_TWO
 			LDR		R1,[R12]
 			SUB		R12,R12,#4
 			B		QUICKSORT
-			
-			
-			
-			
-			
