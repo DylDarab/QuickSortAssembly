@@ -8,8 +8,7 @@ StackTwo		DCD		-1
 			ADD		R11,R11,#8
 			ADD		R12,R12,#4
 			B		LOAD_PR
-			
-			
+						
 QUICKSORT
 			CMP		R1,R2
 			BGE		LOAD_PR
