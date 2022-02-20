@@ -53,8 +53,7 @@ LOOPEND
 			MOV		R13,R8 ; R13 => TEMP
 			STR		R3,[R0,R4,LSL #2] ; A[i] = A[r]
 			STR		R13,[R0,R2,LSL #2] ; A[r] = TEMP
-			
-			
+					
 			ADD		R11,R11,#4
 			STR		R1,[R11]
 			SUB		R1,R4,#1
