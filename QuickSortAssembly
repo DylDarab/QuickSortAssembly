@@ -66,8 +66,7 @@ LOOPEND
 			STR		R1,[R12]
 			ADD		R12,R12,#4
 			STR		R2,[R12]
-			
-			
+				
 			B		LOAD_PR
 						
 STOP
